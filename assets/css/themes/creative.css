@@ -1,0 +1,155 @@
+:root {
+  --color-primary: #E57E25;
+  --color-secondary: #f9b851;
+  --color-gradient-start: #fe688b;
+  --color-gradient-stop: #000b96;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.9em;
+  color: #828282;
+}
+
+#content {
+  background-image: url(../../demo/bg/creative-content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.main-header{
+  color: #444!important;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6 .h6
+p{
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+  color: #000!important;
+}
+
+.h1,
+h1 {
+  font-size: 52px;
+  line-height: 1em;
+}
+
+.h2,
+h2 {
+  font-size: 42px;
+  line-height: .9em;
+  letter-spacing: 0;
+}
+
+.h3,
+h3 {
+  font-size: 30px;
+  line-height: .8em;
+}
+
+.h4,
+h4 {
+  font-size: 25px;
+  line-height: 1em;
+}
+
+.h5,
+h5 {
+  font-size: 21px;
+  line-height: 1em;
+}
+
+.h6,
+h6 {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.btn-solid {
+  background-color: #3d59e8;
+  border-color: #3d59e8;
+}
+
+.btn-solid:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.main-nav > li > a {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #858694;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #E57F27;
+}
+
+#pad_top{
+  padding-top: 10%!important;
+}
+
+.text_center{
+  text-align: center!important;
+}
+
+.main-footer {
+  color: #808291;
+}
+
+.main-footer a:not(.btn) {
+  color: #808291;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fe688b;
+}
+
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #fff !important;
+    height: 72px;
+    color: #444;
+  }
+
+  .main-header .is-stuck .navbar-header,
+  .main-header .is-stuck #main-header-collapse ul li,
+  .main-header .is-stuck .header-module{
+    height: 70%;
+  }
+
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+  .mainbar-wrap.is-stuck .main-nav > li > a,
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a:hover,
+  .mainbar-wrap.is-stuck .main-nav > li > a:hover {
+    color: #000 !important;
+  }
+
+  .navbar-brand {
+    margin-left: -9%!important;
+  }
+
+  .header-module .btn{
+    margin-right: -10%!important;
+  }
+
+  /*.header-module .social-icon{
+    margin-right: -10%!important;
+  }*/
+
+}

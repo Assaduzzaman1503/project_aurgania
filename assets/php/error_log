@@ -1,0 +1,4 @@
+[10-Jul-2019 01:59:21 America/New_York] PHP Notice:  Undefined variable: phone_number in /home/mrbljjcz/public_html/tekhive/assets/php/mailer.php on line 36
+[10-Jul-2019 01:59:21 America/New_York] PHP Notice:  Undefined variable: subject in /home/mrbljjcz/public_html/tekhive/assets/php/mailer.php on line 43
+[10-Jul-2019 02:14:35 America/New_York] PHP Notice:  Undefined variable: phone_number in /home/mrbljjcz/public_html/tekhive/assets/php/mailer.php on line 36
+[10-Jul-2019 02:14:35 America/New_York] PHP Notice:  Undefined variable: subject in /home/mrbljjcz/public_html/tekhive/assets/php/mailer.php on line 43

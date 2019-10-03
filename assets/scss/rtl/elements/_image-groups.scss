@@ -1,0 +1,17 @@
+.liquid-img-group-browser {
+
+	.liquid-img-group-url {
+		direction: ltr;
+	}
+}
+
+@media screen and ( min-width: $grid-breakpoint-md ) {
+	
+	.liquid-img-group-content {
+
+		&.content-fixed-left {
+			margin-right: 0;
+			margin-left: 1.5em;
+		}
+	}
+}

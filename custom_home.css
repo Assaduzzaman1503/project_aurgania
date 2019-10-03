@@ -1,0 +1,88 @@
+.ld-pf-bg{
+	background-color: #E57F27!important;
+    background: -moz-linear-gradient(-45deg, rgba(229, 127, 39, .88) 0%, rgba(229, 127, 39, 1) 80%)!important;
+    
+    background: -webkit-linear-gradient(-45deg, rgba(229, 127, 39, .88) 0%, rgba(229, 127, 39, 1) 80%)!important;
+    
+    background: -o-linear-gradient(-45deg, rgba(229, 127, 39, .88) 0%, rgba(229, 127, 39, 1) 80%)!important;
+    
+    background: -ms-linear-gradient(-45deg, rgba(229, 127, 39, .88) 0%, rgba(229, 127, 39, 1) 80%)!important;
+    
+    background: linear-gradient(-45deg, rgba(229, 127, 39, .88) 0%, rgba(229, 127, 39, 1) 80%)!important;
+}
+
+
+
+.service_icon i{
+	font-size: 60px;
+	color: #E57F27;
+}
+
+.contents{
+	
+}
+
+.sep_inner_color{
+	background-color: #E57E25!important;
+}
+
+.explore_button a{
+	background-color: #E57E25!important;
+	border: 1px solid #E57E25!important;
+	color: #fff!important; 
+}
+
+.text_custom{
+	color: #E57E25!important;
+}
+
+.text_custom a{
+	color: #E57E25!important;
+}
+
+.text_one_hover a{
+	color: #010101!important;
+}
+
+.text_one_hover a:hover{
+	color: #E57F27!important;
+}
+
+.work_button{
+	background-color:#E57E25; 
+	border:0px; 
+	color: #fff; 
+	height:70px; 
+	width:275px;
+}
+
+.work_button span{
+	margin-top: -2%;
+}
+
+.work_button .btn-txt{
+	margin-top: -3%;
+}
+
+.pricing_button{
+	background-color:#EF7320; 
+	border: 1px solid #EF7320;
+}
+
+.pricing_number{
+	font-size: 100px!important;
+	font-weight:bold!important; 
+	color:#EF7320!important;
+}
+
+.footer_text_color{
+	color: #D28184!important;
+}
+
+.footer_one_hover a{
+	color: #686868!important;
+}
+
+.footer_one_hover a:hover{
+	color: #E57F27!important;
+}
